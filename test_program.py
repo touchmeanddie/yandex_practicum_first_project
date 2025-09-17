@@ -9,8 +9,9 @@ EXPECTED_FUNC_NAME = 'say_hello'
 def test_say_hello_exists():
     assert hasattr(practicum, EXPECTED_FUNC_NAME), (
         f'Функция `{EXPECTED_FUNC_NAME}` не обнаружена в модуле `practicum`')
-
-
+ 
+ 
+ 
 def test_say_hello_run_without_exceptions():
     try:
         practicum.say_hello()
